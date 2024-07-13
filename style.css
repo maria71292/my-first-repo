@@ -1,0 +1,355 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Azeret Mono;
+}
+
+
+nav li {
+    display: inline;
+}
+
+header > nav > ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 155px;
+}
+
+nav{
+    padding: 30px;
+    align-items: center;
+}
+nav li button{
+    color:rgb(13, 19, 33);
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+    padding: 17px 24px 17px 24px;
+    border: rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    opacity: 0.8;
+    background-color: white;
+
+}
+nav li button:hover{
+    cursor: pointer;
+}
+
+nav li p{
+    color: rgb(13, 19, 33);
+    font-size: 21px;
+    font-weight: 800;
+    text-align: left;
+}
+
+
+#head{
+    height: 655px;
+    background-image: url('assets/Hero-bg.png'); 
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#head .banner{
+    text-align: center;
+    width: 1000px;
+}
+
+.banner h1{
+    color: rgb(13, 19, 33);
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 68px;
+    margin: 24px 0px;
+}
+
+.banner p{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.7;
+}
+
+.banner .btn button{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 600;
+    padding: 21px 24px 21px 24px;
+    border-radius: 8px;
+    margin: 32px 0px;
+    background: rgb(13, 19, 33);
+    border: none;
+}
+
+.banner .btn button:hover{
+    cursor: pointer;
+}
+
+#about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 154px;
+    margin-bottom: 88px;
+}
+
+#about .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#about .container .card{
+    display: flex;
+    flex-direction: row;
+    gap: 99px;
+    border: none;
+    width: 946px;
+    height: 275px;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+#about .container .card .card-text{
+    width: 477px;
+    text-align: left;
+}
+
+.card-text p{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.7;
+    margin: 16px 0px;
+}
+
+.card-text h1{
+    color: rgba(13, 19, 33, 0.7);
+    margin: 16px 0px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+.card-text button{
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    padding: 12px 20px 12px 20px;
+    color: rgb(13, 19, 33);
+    margin: 32px 0px;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    background-color: #fff;
+}
+
+#link{
+    height: 919px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#link iframe{
+    border: none;
+    border-radius: 16px;
+}
+
+#link .video{
+    height: 614px;
+    width: 1140px;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#link .link-text, #target .text, #about .about-text{
+    width: 852px;
+    text-align: center;
+}
+
+#link h1, #target .h1, #about .h1{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+#link p, #target .p, #about .p{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 48px;
+    opacity: 0.7;
+}
+
+#target{
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#target .web-language{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
+}
+
+#target .web-language div{
+    height: 220px;
+    width: 284px;
+    padding: 40px;
+    border: none;
+    border-radius: 16px;
+    display: block;
+}
+
+.web-language div h1{
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    margin-top: 24px;
+    margin-bottom: 8px;
+    font-weight: 800;
+    text-align: left;
+}
+.web-language div p{
+    margin: 8px 0px;
+    opacity: 0.7;
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.web-language div a{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    text-align: left;
+    text-decoration-line: underline;
+}
+
+.web-language div a:hover{
+    cursor: pointer;    
+}
+
+.html{
+    background-color: rgba(255, 76, 30, 0.05);
+}
+
+.css{
+    background-color: rgba(0, 76, 232, 0.05);
+}
+
+.js{
+    background-color: rgba(255, 223, 0, 0.05);
+}
+/* Contact section  */
+
+.contact{
+    height: 313px;
+    width: 1140px;
+    background-image: url('assets/handshake.jpg');  /*Need to add shadow*/ 
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 49px;
+    margin-bottom: 80px;
+    border-radius: 16px;
+}
+
+
+#contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.support{
+    text-align: center;
+    height: 185px;
+    margin: 32px 0px;
+}
+
+.support h1{
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+    margin: 16px 0px;
+}
+
+.support p{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.7;
+    margin: 0 24px;;
+}
+
+.support input[type="text"]{
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    width: 548px;
+    padding: 19px 20px 19px 20px;
+    margin-right: 16px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.support input[type="submit"]{
+    padding: 17px 20px 17px 20px;
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    border: none;
+}
+
+.support input[type="submit"]:hover{
+    cursor: pointer;
+}
+
+
+
+
+/* Footer section */
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 150px 32px 150px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+}
+
+footer p{
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+}
+
